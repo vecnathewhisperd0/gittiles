@@ -1,0 +1,8 @@
+Verified+1: Shawn Pearce <sop@google.com>
+Code-Review+2: Dave Borowitz <dborowitz@google.com>
+Code-Review+1: David Pursehouse <david.pursehouse@sonymobile.com>
+Submitted-by: Shawn Pearce <sop@google.com>
+Submitted-at: Wed, 12 Jun 2013 18:36:10 +0000
+Reviewed-on: https://gerrit-review.googlesource.com/46801
+Project: gitiles
+Branch: refs/heads/master
