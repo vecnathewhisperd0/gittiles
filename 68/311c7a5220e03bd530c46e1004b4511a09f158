@@ -1,0 +1,8 @@
+Verified+1: Shawn Pearce <sop@google.com>
+Code-Review+1: Stefan Beller <sbeller@google.com>
+Code-Review+2: Shawn Pearce <sop@google.com>
+Submitted-by: Shawn Pearce <sop@google.com>
+Submitted-at: Fri, 12 Jun 2015 21:22:57 +0000
+Reviewed-on: https://gerrit-review.googlesource.com/68570
+Project: gitiles
+Branch: refs/heads/master
