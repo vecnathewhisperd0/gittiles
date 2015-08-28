@@ -1,0 +1,7 @@
+Code-Review+2: Jonathan Nieder <jrn@google.com>
+Verified+1: Jonathan Nieder <jrn@google.com>
+Submitted-by: Jonathan Nieder <jrn@google.com>
+Submitted-at: Fri, 28 Aug 2015 19:55:18 +0000
+Reviewed-on: https://gerrit-review.googlesource.com/70468
+Project: gitiles
+Branch: refs/heads/master
