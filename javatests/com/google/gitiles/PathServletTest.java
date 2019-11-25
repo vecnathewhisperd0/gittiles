@@ -102,6 +102,7 @@ public class PathServletTest extends ServletTest {
   }
 
   @Test
+<<<<<<< HEAD   (945358 Merge changes from topics "jgit-reachability", "reachability)
   public void fileWithMaxLines() throws Exception {
     int MAX_LINE_COUNT = 50000;
     StringBuilder contentBuilder = new StringBuilder();
@@ -127,6 +128,23 @@ public class PathServletTest extends ServletTest {
     Map<String, ?> data = buildData("/repo/+/master/largebar");
     SoyListData lines = (SoyListData) getBlobData(data).get("lines");
     assertThat(lines).isNull();
+=======
+  public void largeFileHtml() throws Exception {
+    int largeContentSize = BlobSoyData.MAX_FILE_SIZE + 1;
+    repo.branch("master").commit().add("foo", generateContent(largeContentSize)).create();
+
+    Map<String, ?> data = (Map<String, ?>) buildData("/repo/+/master/foo").get("data");
+    assertThat(data).containsEntry("lines", null);
+    assertThat(data).containsEntry("size", "" + largeContentSize);
+  }
+
+  private static String generateContent(int contentSize) {
+    char[] str = new char[contentSize];
+    for (int i = 0; i < contentSize; i++) {
+      str[i] = (char) ('0' + (i % 78));
+    }
+    return new String(str);
+>>>>>>> BRANCH (c16518 Correct license header for VisibilityCacheTest)
   }
 
   @Test
