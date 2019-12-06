@@ -148,8 +148,13 @@ maven_jar(
 
 maven_jar(
     name = "html-types",
+<<<<<<< HEAD   (2ab0f9 Bump bazel version to 1.2.0)
     artifact = "com.google.common.html.types:types:1.0.8",
     sha1 = "9e9cf7bc4b2a60efeb5f5581fe46d17c068e0777",
+=======
+    artifact = "com.google.common.html.types:types:1.0.4",
+    sha1 = "2adf4c8bfccc0ff7346f9186ac5aa57d829ad065",
+>>>>>>> BRANCH (21fe1e Set version to 0.2-7.1)
 )
 
 maven_jar(

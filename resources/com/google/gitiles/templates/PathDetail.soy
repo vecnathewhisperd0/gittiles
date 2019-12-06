@@ -26,7 +26,10 @@
       org.eclipse.jgit.lib.FileMode. */
   {@param data: ?}  /** path data, matching the params for one of .treeDetail, .blobDetail,
       .symlinkDetail, or .gitlinkDetail as appropriate. */
+<<<<<<< HEAD   (2ab0f9 Bump bazel version to 1.2.0)
   {@inject staticUrls: ?}
+=======
+>>>>>>> BRANCH (21fe1e Set version to 0.2-7.1)
 {if $type == 'REGULAR_FILE' or $type == 'EXECUTABLE_FILE'}
   {call .header data="all"}
     {param css: [$staticUrls.PRETTIFY_CSS_URL] /}
