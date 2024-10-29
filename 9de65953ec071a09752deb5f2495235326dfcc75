@@ -187,6 +187,24 @@
       "message": "I think I am going in the right direction.  Hello everyone,",
       "revId": "9de65953ec071a09752deb5f2495235326dfcc75",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "940df70d_f8abfc80",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3416804
+      },
+      "writtenOn": "2024-10-29T15:23:26Z",
+      "side": 1,
+      "message": "\u003e Comment removed by: Edwin Kempin; Reason: spam",
+      "parentUuid": "56bea462_c91316c9",
+      "revId": "9de65953ec071a09752deb5f2495235326dfcc75",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
